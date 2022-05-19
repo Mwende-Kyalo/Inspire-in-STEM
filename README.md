@@ -22,6 +22,11 @@ strings
     lower()
     len()
 
+Day 4:
+Loops
+Lists
+
+
 ##Week 2 : Electronics for innovators
 
 

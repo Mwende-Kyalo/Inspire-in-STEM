@@ -5,7 +5,7 @@ motorcycle = ['Honda','Yamaha','Suzuki']
 print(motorcycle) 
 
 #accessing list items using index 
-print(motorcycle[0]) 
+print(motorcycle[-1]) 
 
 #changing elements in a list
 #motorcycle[0] = "Bugatti" 
@@ -54,3 +54,9 @@ print(f"{pupil[0]} goes to {school[0]} \n{pupil[1]} goes to {school[1]} \n{pupil
 for pupil in pupil:
     print(f'Hello I am pupil {pupil}')
 
+
+fruits = ['Mango','Banana','Pineapple']
+print(fruits) 
+
+fruits[2] = 'Guava'
+print(fruits)

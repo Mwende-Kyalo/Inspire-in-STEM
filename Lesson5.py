@@ -18,7 +18,7 @@ print(user_name.lstrip())
 msg =''' QRST126XDG MPESA confirmed 
 you have received ksh 2300 from
 James Muoki . 
-Safaricon transparent for you
+Safaricom transparent for you
 ''' 
 print(msg) 
 txt =""" Holla! I am Mwende
@@ -26,3 +26,5 @@ I come from home.
 i like to sleep and read novels.
 """
 
+#tabs
+print("Monday\tTuesday\tWednesday\tThursday\tFriday\tSaturday\tSunday")

@@ -21,4 +21,7 @@ person ={'name':'Grandpa_Smurf','address':'00100','phone_number':'0700000000','g
 
 #looping over dictionaries
 for key, value in person.items():
-    print(f"{key}:{value}")
+    print(f"{key}:{value}") 
+
+#get method
+print(person.get('password','the location key is non-existent'))

@@ -5,7 +5,7 @@
 acc_bal = input("What is your account balance?")
 if (int(acc_bal) > 100000) and (int(acc_bal) < 200000):
     acc_bal = acc_bal - 25000 
-    print("We have deducted ksh. 25,000 from your account")/n 
+    print("We have deducted ksh. 25,000 from your account")
     print(acc_bal)
 elif (int(acc_bal) > 500000) and (int(acc_bal) < 1000000) :
     acc_bal = float(acc_bal) - (0.3*float(acc_bal))

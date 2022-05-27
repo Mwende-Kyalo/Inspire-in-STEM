@@ -1,1 +1,1 @@
-#print all colours in uppercase using loops
+#Geometric progression

@@ -52,6 +52,7 @@ strings
 
 
 ##Week 3 : Introduction to Robotics 
+    Divisibility tests
 
 
 ##Week 4 : Javascript, CSS, HTML 

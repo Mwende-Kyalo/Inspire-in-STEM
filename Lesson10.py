@@ -1,9 +1,12 @@
-#pizza list
+#fav_food list
 mary_fav_food = ['beef','chicken','vegetable']
 jane_fav_food = ['rice','ugali','potato']
+
 #dictionary containing the above
 food={
-    'mary',[mary_fav_food],
-    'jane',[jane_fav_food],
+    'Mary ': ['beef','chicken','vegetable'],
+    'Jane ': ['rice','ugali','potato'],
 }
-print(food)
+
+for key, value in food.items():
+    print(f"{key}:{ value}") 

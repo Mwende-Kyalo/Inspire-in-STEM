@@ -5,7 +5,7 @@
 ##################################### 
 
 class Person:
-    def __init__(self, _name, _age):
+    def _init__(self, _name, _age):
         self.name= _name
         self.age= _age
 
@@ -16,7 +16,7 @@ person1 = Person('Bob', 16 )
 person1.sayHi()
 
 #person2
-person2 =Person('Angie',18)
+person2 = Person('Angie',18)
 person2.sayHi()
 
 

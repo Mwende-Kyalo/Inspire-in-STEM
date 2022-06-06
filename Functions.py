@@ -43,3 +43,31 @@ def products(x,y):
 products(40,50)
     
 
+def print_name(name = "Bob Marley"):
+    print(name)
+print_name("Jason")
+
+#returning from a function 
+def get_sum(num1,num2):
+    sum_nums = num1 +  num2 
+    return sum_nums
+print(get_sum(7,12))
+
+#get the square of numbers
+def powers(number,power):
+    pow_nums = number ** power 
+    return pow_nums 
+print(powers(6,4))
+
+#printing ful names
+def get_full_name(f_name , s_name):
+    full_name = f_name + " " + s_name 
+    return full_name.title()
+print(get_full_name("Skip","Marley"))
+
+# returning a dictionary from a function
+def create_full_name(first_name,second_name):
+    person{'first':'first_name','second':'second_name'}
+    return person
+
+    
